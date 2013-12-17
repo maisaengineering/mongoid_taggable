@@ -19,5 +19,5 @@ Gem::Specification.new do |g|
   g.require_paths = ['lib']
 
   g.add_runtime_dependency 'rake', '>= 0'
-  g.add_runtime_dependency 'mongoid', '~> 4', github: 'mongoid/mongoid'
+  g.add_runtime_dependency 'mongoid', '~> 4.0.0.alpha1'
 end
